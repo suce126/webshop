@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <input type="text" class="test" name="test" value="1" />
+        <input type="text" name="hello" value="2" />
+        <input type="text" name="test-input" value="3" />
+        <input type="text" name="another-test" value="4" />
+        <input type="text" name="example" value="5" />
+        <input type="text" class="test" name="tester" value="6" />
+    </div>
+    
+</body>
+
+<script>
+
+    //Q1
+    Since in javaScript logic operations, null, undefined and 0 are false, others are true, so in this case, the value of x is "text".
+
+    //Q2
+    var x = {} 1. Declare an empty object x.
+    x.prop = 5 2. Assign prop of x to 5.
+    var y = x  3. Declare an object y, and object x assign to object y. Now in the memory object x is equals object y. 
+    y.prop = 7 4. Assign prop of y to 7. Since in the memory object x is equals object y, so now x.prop = 7.
+    
+    //Q3
+    Since == (===) will (not) do type coercion, so (0 === "0") is false, and (0 == "0") is true.
+
+    //Q4
+    const x = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+    const reducer = (acc, cur) => acc + cur;
+    x.sum = () => { return x.reduce(reducer) }
+    console.log(x.sum());
+
+
+    //5
+    Keyup is fired when a user releases a key that just pressed.
+    Keypress is fired when a user press down on a key that display a character, and KeyPress can capture the lowercase or uppercase of a single character.
+    //6
+    The variable i is declared by var, and var is valid in this global scope, so there is only one variable i in this global. 
+    let can solve this problem.
+    https://codepen.io/suce126/pen/omjEGv
+
+    // //7
+    $("input[class*=='text']", "input[name^='text']").val( "has man in it!" );
+    //console.log(x);
+    //8
+    
+</script>
+
+
+</html>
