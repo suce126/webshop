@@ -24,8 +24,18 @@ class ProductProvider extends Component {
       return {products:tempProducts}
     })
   }
-  handelDetail = () => {
-    console.log('Hello from detail')
+
+  getItem = (id) => {
+    const product = this.state.products.find(item => item.id ===id)
+    return product
+  }
+
+
+  handleDetail = (id) => {
+    const product = this.getItem(id);
+    this.setState(()=>{ 
+      return {detailProduct:product}
+    })
   }
 
   addToCart = id => {
@@ -35,7 +45,7 @@ class ProductProvider extends Component {
     return (
       <ProductContext.Provider value={{
         ...this.state,
-        handelDetail: this.handelDetail,
+        handleDetail: this.handleDetail,
         addToCart: this.addToCart
       }}>
         {this.props.children}
