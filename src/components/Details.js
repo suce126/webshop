@@ -58,5 +58,3 @@ export default class Details extends Component {
     )
   }
 }
-
-// 3:05:00 ??///////////////
