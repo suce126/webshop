@@ -1,6 +1,6 @@
 https://tranquil-headland-14112.herokuapp.com/
 
-log
+Log
 
 28.Jan.2019 
 1. Deploy this app to Heroku server.
