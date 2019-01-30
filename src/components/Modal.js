@@ -28,7 +28,6 @@ export default class Modal extends Component {
                                     Continue shopping
                                     </ButtonContainer>
                                 </Link>
- {/* 4:06:30 /////////////////////////// */}
                                 <Link to='/cart'>
                                     <ButtonContainer cart onClick={()=>closeModal()}> 
                                     Go to cart

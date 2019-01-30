@@ -8,3 +8,9 @@ log
 
 29.Jan.2019
 1. Implemented product previews page(prepare for shopping cart).
+
+30.Jan.2019
+1. Add item to cart 
+2. Decrement & Increment
+3. Calculate the total price(with tax)
+4. Remove item(all) from cart
