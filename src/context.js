@@ -105,7 +105,7 @@ class ProductProvider extends Component {
         this.addTotals()
       })
     }
-    {/*5:40:50 ........................ */}
+  
   }
   removeItem = (id) => {
     let tempProducts = [...this.state.products]

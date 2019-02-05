@@ -30,8 +30,8 @@ export default class Details extends Component {
                   </h4>
                   <h4 className="text-blue">
                     <strong>
-                      price :  
-                      {price} <span>kr.</span>
+                      price : 
+                      {' '+ price} <span>kr.</span>
                     </strong>
                   </h4>
                   <p className="text-capitalize font-weight-bold mt-s mb-0">
@@ -40,7 +40,7 @@ export default class Details extends Component {
                   <p className="text-muted lead">{info}</p>
                   {/*buttons */}
                   <div>
-                    <Link to='/'>
+                    <Link to='/product'>
                       <ButtonContainer>back to Product</ButtonContainer>
                     </Link>
                     <ButtonContainer cart
@@ -53,7 +53,8 @@ export default class Details extends Component {
               </div>
             </div>
           )
-        }}
+        }
+      }
       </ProductConsumer>
     )
   }
