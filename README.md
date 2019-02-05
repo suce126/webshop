@@ -14,3 +14,11 @@ Log
 2. Decrement & Increment
 3. Calculate the total price(with tax)
 4. Remove item(all) from cart
+
+31.Jan.2019
+1. Edit images(detail)
+
+01.Feb - 05.Feb 2019
+1. Home page
+2. Footer
+3. News
