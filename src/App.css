@@ -89,12 +89,11 @@ body {
   
 }
 footer{
-  
   flex: 0 0 auto;
 }
 .icons a img{    
   padding: 1%;
-  width: 5%;
+  width: 8%;
   text-align: center;
   text-decoration: none;
   margin: 1% 1%;
