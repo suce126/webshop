@@ -7,6 +7,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   font-family: 'Oswald', sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
@@ -58,9 +61,9 @@ body {
 
 .banner img {
   width: 100%;
-  padding-top: .8rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-top: .8%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .container-hotnews  {
@@ -81,15 +84,16 @@ body {
 .container-footer{
   background: var(--mainDark) !important;
 }
-.container-footer footer{
+.container-footer .footer{
   display: grid;
   grid-gap: 10%;
   text-align: center;
   grid-template-columns: 1fr 1fr;
   
 }
-footer{
-  flex: 0 0 auto;
+.footer{
+  /* flex: 0 0 auto; */
+  bottom: 0px !important;
 }
 .icons a img{    
   padding: 1%;

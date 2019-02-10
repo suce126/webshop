@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import Particles from 'react-particles-js'
-import Title from './Title'
 import Banner from './Banner'
 import Footer from './Footer'
 import HotNews from './HotNews';
