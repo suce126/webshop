@@ -1,0 +1,14 @@
+import React, { Component } from 'react'
+import Footer from './Footer'
+import Home from './Home';
+
+export default class AboutUs extends Component {
+  render() {
+    return (
+      <div>
+        <Footer  />
+      </div>
+      
+    )
+  }
+}

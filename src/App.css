@@ -95,6 +95,10 @@ body {
   /* flex: 0 0 auto; */
   bottom: 0px !important;
 }
+
+Footer {
+  bottom: 0px !important;
+}
 .icons a img{    
   padding: 1%;
   width: 8%;
@@ -111,5 +115,4 @@ body {
   padding: 2%;
   color:var(--mainWhite);
   text-align: center;
-
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Footer from '../Footer';
 
 export default class EmptyCart extends Component {
   render() {
