@@ -6,10 +6,22 @@
   --mainYellow:#ffa400;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
+ #root {
+        height: 100%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+
+}
 body {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
   font-family: 'Oswald', sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
