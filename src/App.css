@@ -9,7 +9,7 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
   font-family: 'Oswald', sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
@@ -53,7 +53,6 @@ body {
 .homediv {
     margin: 0;
     padding: 0;
-    font-family: "Courier New", 'Courier New', Courier, monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background: var(--mainWhite);
@@ -95,6 +94,10 @@ body {
   /* flex: 0 0 auto; */
   bottom: 0px !important;
 }
+
+Footer {
+  bottom: 0px !important;
+}
 .icons a img{    
   padding: 1%;
   width: 8%;
@@ -111,5 +114,4 @@ body {
   padding: 2%;
   color:var(--mainWhite);
   text-align: center;
-
 }
