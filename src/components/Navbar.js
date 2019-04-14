@@ -18,11 +18,11 @@ export default class extends Component {
             </Link>
           </li>
 
-          <li className="nav-item ml-5">
+          {/* <li className="nav-item ml-5">
             <Link to="/aboutus" className="nav-link">
               About Us
             </Link>
-          </li>
+          </li> */}
         </ul>
 
         <Link to="/cart" className="ml-auto">
