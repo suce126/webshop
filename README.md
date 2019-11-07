@@ -16,7 +16,7 @@ Log
 4. Remove item(all) from cart
 
 31.Jan.2019
-1. Edit images(detail)
+1. Edit images(detail page)
 
 01.Feb - 05.Feb 2019
 1. Home page
